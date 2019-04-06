@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Style>
+    header{
+        padding:50px;
+        text-align: center;
+        font-size:30px;
+        height:125px;
+        background-image: url(roblox-banner.jpg);
+        background-size: 1500px 350px;
+        background-repeat: no-repeat;
+    }
+
+    nav{
+        float:left;
+        width:26%;
+        height:400px;
+
+    }
+
+    nav ul{
+        list-style-type:none;
+        background-color:rgb(118, 118, 221);
+
+    }
+
+    nav li a {
+        display: block;
+        color:powderblue;
+        padding:8px 16px;
+        text-decoration: none;
+
+    }
+
+    nav li a.active{
+        background-color:red;
+        color:seagreen;
+    }
+
+    nav li a:hover:not(.active) {
+        background-color:yellow;
+        color:orange;
+    }
+
+    article{
+        float:right;
+        padding:20px;
+        width:70%;
+        background-color:pink;
+        height:400px;
+    
+    }
+
+    section:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+
+    footer{
+        background-color: blueviolet;
+        padding:18px;
+        text-align:center;
+        color:cyan;
+    }
+</Style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a target="kevin1" href="page1.html">Roblox Noob</a>
+                </li>
+                <li>
+                    <a target="kevin1" href="page2.html">Roblox Pro</a>
+                </li>
+                <li>
+                    <a target="kevin1" href="page3.html">Roblox Hacker</a>
+        
+                </li>
+                <li>
+                    <a target="kevin1" href="form.html">Register</a>
+                </li>
+                </ul>
+        </nav>
+        
+        <article>
+                <iframe src="page1.html" name="kevin1" width="100%" height="100%" style="border: solid 5px blue;"></iframe>
+        </article>
+    </section>
+    
+    <footer>
+        <p>Thanks for visiting my web side!</p>
+    </footer>
+</body>
+</html>
